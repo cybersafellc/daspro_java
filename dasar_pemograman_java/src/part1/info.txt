@@ -1,0 +1,27 @@
+di part 1 ini saya mempelajari tentang sejarah, structure dan arsitektur di java dan juga bagaaimana source code java di eksekusi computer
+
+Sebelum semuanya di mulai alangkah baiknya mengetahui sejarah java, dari yang saya baca (Maaf kalau salah)
+java di ciptakan pada tahun 1990, awal mulanya java dibuat untuk hardware tv / remote, nama awalnya ialah own
+nama yang di ambil dari pohon dekat kantor si pengembang java,
+
+Tim pengembang ada beberapa orang yang dipimpin oleh james gosling. pada tahun 1991 own berubah nama menjadi Green, proyek
+pengembangan selanjutnya ialah untuk menjalan kan java di hardware daya rendah. dan sampai akhirnya Green berubah menjadi JAVA
+lalu di publikasi pada tahun 1995 dan sekarang mulai dari tahun 2010 JAVA sudah di akusisi oleh oracle.
+
+1. Structure java
+    - initialize package
+    - import library
+    - class utama, nama file dan kelas harus sama
+    - static methode main
+    - keywords (class, static, public, void)
+
+2. Java tools
+    - JDK (javac, jvm, default library)
+    - IDE (intelIJ, netbeans, vscode + ext)
+
+3. How java works?
+    - java memiliki 2 software utamanya untuk menjalankan program yaitu javac (java compiler) dan java / jvm (java virtual mechine).
+    - pertama kita akan menulis source code java dengan mengikuti aturan sintax java
+    - lalu source code di compile menjadi bytecode dengan menggunakan javac software
+    - bytecode akan di eksekusi oleh jvm mulai dari tahap intepreter, penerjemahan dan runtime.
+    - dari keseluruhan tahap di atas hasil akhirnya source code kita berhasil menginstruksi hardware computer CPU dan mendapatkan output.
