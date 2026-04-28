@@ -1,5 +1,6 @@
 package random_play_with_looping;
 
+import random_play_with_looping.blueprints.Car;
 import random_play_with_looping.blueprints.Person;
 
 public class Main {
@@ -21,9 +22,27 @@ public class Main {
             System.out.println("dob    : " + persons[i].getDob());
             System.out.println("mother : " + persons[i].getMotherName());
         }
+
+        Car car = Main.getCar("toyota ft 86", "BMXXXXAAK", "19-12-2026");
+        boolean statusLoop = true;
+        int totalWhileLoop = 2;
+
+        while (statusLoop){
+            if(totalWhileLoop > 0){
+                System.out.println(car.getCarName());
+                totalWhileLoop--;
+            }else{
+                statusLoop = false;
+            }
+        }
+
     }
 
     public static Person getPerson(String name, int age, String dob, String motherName){
         return BluePrints.createPerson(name, age, dob, motherName);
+    }
+
+    public static Car getCar(String name, String plat, String productionDate){
+        return  BluePrints.createCar(name, plat, productionDate);
     }
 }
