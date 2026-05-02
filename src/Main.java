@@ -13,8 +13,13 @@ public class Main {
 
         motor1.setColor("orange");
         mobil1.setColor("black");
+        mobil1.setPoliceNumber("B1RI");
+        motor1.setPoliceNumber("B1MY");
 
         System.out.println(motor1.getColor());
         System.out.println(mobil1.getColor());
+
+        System.out.println(motor1.getPoliceNumber());
+        System.out.println(mobil1.getPoliceNumber());
     }
 }
