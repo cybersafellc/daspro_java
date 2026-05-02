@@ -11,7 +11,9 @@ public class Main {
         motor1.sound();
         mobil1.sound();
 
+        motor1.setNama("kawasaki z900");
         motor1.setColor("orange");
+        mobil1.setNama("BMW X1");
         mobil1.setColor("black");
         mobil1.setPoliceNumber("B1RI");
         motor1.setPoliceNumber("B1MY");
@@ -21,5 +23,8 @@ public class Main {
 
         System.out.println(motor1.getPoliceNumber());
         System.out.println(mobil1.getPoliceNumber());
+
+        System.out.println(mobil1.getNama());
+        System.out.println(motor1.getNama());
     }
 }

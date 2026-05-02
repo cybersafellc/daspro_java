@@ -5,6 +5,8 @@ public interface Kendaraan {
     void sound();
     void setPoliceNumber(String pNumber);
     void setColor(String color);
+    void setNama(String nama);
     String getPoliceNumber();
     String getColor();
+    String getNama();
 }
