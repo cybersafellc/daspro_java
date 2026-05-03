@@ -1,8 +1,6 @@
-package blueprints;
+package main.com.vehicle.v1.blueprints;
 
-import interfaces.*;
-
-public class Kendaraan implements interfaces.Kendaraan {
+public class Kendaraan implements main.com.vehicle.v1.interfaces.Kendaraan {
     private String platNumber;
     private String color;
     private String nama;

@@ -1,4 +1,4 @@
-package interfaces;
+package main.com.vehicle.v1.interfaces;
 
 public interface Kendaraan {
     String sound = "ZZZZZ";

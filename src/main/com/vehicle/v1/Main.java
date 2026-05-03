@@ -1,10 +1,12 @@
-import blueprints.Mobil;
-import blueprints.Motor;
-import interfaces.Kendaraan;
+package main.com.vehicle.v1;
+
+import main.com.vehicle.v1.blueprints.Mobil;
+import main.com.vehicle.v1.blueprints.Motor;
+import main.com.vehicle.v1.interfaces.Kendaraan;
 
 public class Main {
     public static void main(String[] args){
-        Kendaraan original = new blueprints.Kendaraan();
+        Kendaraan original = new main.com.vehicle.v1.blueprints.Kendaraan();
         Kendaraan motor1 = new Motor();
         Kendaraan mobil1 = new Mobil();
         original.sound();

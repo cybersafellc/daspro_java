@@ -1,4 +1,4 @@
-package blueprints;
+package main.com.vehicle.v1.blueprints;
 
 public class Motor extends Kendaraan{
     private String sound = "brummmm";
