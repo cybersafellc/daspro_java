@@ -11,3 +11,5 @@ public class structure_dan_arsitektur { // bagian kelas utama
         scan.close();
     }
 }
+
+// make a improve
